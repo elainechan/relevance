@@ -1,4 +1,4 @@
-class BooleanSearch:
+class BooleanSearch():
     def __init__(self, term1_postings, term2_postings):
         self.and_matches = self.and_search(term1_postings, term2_postings)
         self.or_matches = self.or_search(term1_postings, term2_postings)
